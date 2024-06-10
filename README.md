@@ -95,7 +95,7 @@ Start
     textView.setText(selectedItem.data)
 Stop
 
-link to github repo
+link to github repo:https://github.com/rowank21/WeatherApp.git
 
 
 
