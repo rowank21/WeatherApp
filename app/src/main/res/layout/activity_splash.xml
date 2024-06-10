@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round123"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/sunIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather APP Rowan Naidoo"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/sunIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ST10437470"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/nameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>
